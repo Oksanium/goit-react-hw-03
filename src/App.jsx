@@ -44,12 +44,7 @@ function App() {
           contacts={contacts}
           Yup={Yup}
         />
-        <SearchBox
-          Formik={Formik}
-          Field={Field}
-          ErrorMessage={ErrorMessage}
-          setQuery={setQuery}
-        />
+        <SearchBox setQuery={setQuery} />
         <ContactList
           list={contacts}
           query={query}
